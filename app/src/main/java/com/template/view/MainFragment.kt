@@ -35,7 +35,7 @@ class MainFragment : Fragment(),MainViewApi {
     }
 
     override fun showCoins() {
-        binding.TVcoins.text = presenter.getCoins()
+        binding.TVcoins.text = presenter.getCoins().toString()
     }
 
     override fun clickPlay() {

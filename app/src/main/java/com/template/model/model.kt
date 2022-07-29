@@ -41,7 +41,7 @@ object Model: DataApi {
         MAINcount = int
     }
 
-    override fun getMainCount() = MAINcount.toString()
+    override fun getMainCount() = MAINcount
 
 
     override fun setBet(string: String) {

@@ -28,7 +28,7 @@ data.setMainCount(bet,minusOrPlus)
 }
 
 fun getBet() = data.getBet()
-fun getMainCont() = data.getMainCount()
+fun getMainCont():Int = data.getMainCount()
 
 fun setBet(int: Int) = data.setBet(int)
 private var context: GameViewApi? = null
